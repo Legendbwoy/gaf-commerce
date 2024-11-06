@@ -31,6 +31,7 @@
 
   <!-- Main CSS File -->
   <link href="../../assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/admin.css">
 </head>
 
 

@@ -1,0 +1,128 @@
+/* Header Styling */
+.header {
+    background-color: #4b5320; /* Army green */
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  /* Logo Styling */
+  .header .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header .logo img {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  /* Sidebar Toggle Button */
+  .header .toggle-sidebar-btn {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  /* Search Bar (Optional) */
+  .header .search-bar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header .search-bar input[type="text"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .header .search-bar button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  /* Notification and Profile Icons */
+  .header-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-nav .nav-item {
+    margin-left: 15px;
+  }
+  
+  .header-nav .nav-link {
+    color: white;
+    position: relative;
+    font-size: 18px;
+  }
+  
+  .header-nav .nav-link .badge {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #dc3545; /* Red badge for notifications */
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 3px 5px;
+  }
+  
+  .header-nav .nav-profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .header-nav .nav-profile img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .header-nav .nav-profile .dropdown-toggle {
+    color: white;
+  }
+  
+  /* Profile Dropdown Menu */
+  .header-nav .dropdown-menu {
+    background-color: #4b5320; /* Match header color */
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .header-nav .dropdown-menu .dropdown-item {
+    color: white;
+    font-size: 14px;
+  }
+  
+  .header-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #3e4820; /* Slightly darker green on hover */
+  }
+  
